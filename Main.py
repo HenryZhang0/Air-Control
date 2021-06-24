@@ -22,7 +22,7 @@ class Main(object):
         while True:
             s, img = cap.read()
             img = detector.findHands(img, draw=True)
-            lmList = detector.findPosition(img, draw=True)
+            lmList = detector.findPosition(img, draw=False)
             if len(lmList) != 0:
                 hand[0] = lmList[0][1:]
                 hand[1] = lmList[4][1:]
