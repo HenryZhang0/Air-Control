@@ -43,7 +43,7 @@ while True:
 
         # Filter based on size
         area = (bbox[2] - bbox[0]) * (bbox[3] - bbox[1]) // 100
-        # print(area)
+        print(area)
         if 250 < area < 1000:
 
             # Find Distance between index and Thumb

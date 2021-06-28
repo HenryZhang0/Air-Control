@@ -6,7 +6,7 @@ import mouse
 import pyautogui
 
 ##########################
-wCam, hCam = 640, 480
+wCam, hCam = 1280, 720
 frameR = 100  # Frame Reduction
 smoothening = 4
 #########################
@@ -38,7 +38,7 @@ while True:
     print(fingers)
     # print(fingers)
     cv2.rectangle(img, (frameR, frameR), (wCam - frameR, hCam - frameR),
-                  (255, 0, 255), 2)
+                  (255, 255, 255), 2)
     # 4. Only Index Finger : Moving Mode
     if fingers[1] == 1 and fingers[2] == 0:
         # 5. Convert Coordinates
