@@ -1,3 +1,3 @@
 # Air-Control
 
-### To install dependencies, use the command `pip install -r requirements.txt`
+### To install dependencies, use the command `pip install -r requirements.txt` kek
