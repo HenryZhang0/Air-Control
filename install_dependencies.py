@@ -7,7 +7,7 @@ def install(package):
 
 
 requirements = ['opencv-contrib-python',
-                'opencv-python', 'mediapipe', 'mouse', 'pyautogui']
+                'opencv-python', 'mediapipe', 'mouse', 'pyautogui', 'numpy']
 
 for r in requirements:
     try:

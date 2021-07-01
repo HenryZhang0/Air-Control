@@ -102,6 +102,8 @@ class Main(object):
 
 # calculations
 
+def sus():
+    pass
 
 def average(*points, round=False):
     totalx = 0
